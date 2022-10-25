@@ -1,0 +1,27 @@
+h1 {
+	color: red;
+}
+
+@font-face {
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+
+p {
+	font-family: lobster;
+	color: darkred;
+}
+
+body {
+	background-color: rgb(253, 251, 239);
+	color: black
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(40, 40, 40);
+        color: white;
+    }
+}
+
