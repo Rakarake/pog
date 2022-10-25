@@ -1,27 +1,57 @@
-h1 {
-	color: red;
-}
-
 @font-face {
 	font-family: lobster;
 	src: url(fonts/Lobster-Regular.ttf);
 }
 
-p {
+.big-lobster {
 	font-family: lobster;
 	color: darkred;
 }
 
-body {
-	background-color: rgb(253, 251, 239);
-	color: black
+.link-bar {
+	text-align: center;
 }
 
-/* Dark mode */
+.link-bar-item {
+	border-radius: 25px;
+	background: rgb(35, 68, 91);
+}
+
+h1 {
+	text-align: center;
+	font-family: lobster;
+	font-size: 300%;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: fantasy;
+	font-size: 150%;
+	font-weight: bold;
+	filter: drop-shadow(5px 1px 0px #4444dd);
+}
+
+/* Light mode */
+body {
+	background-color: rgb(253, 251, 239);
+	color: black;
+}
+
+a {
+	color: rgb(34, 32, 52);
+}
+
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: rgb(40, 40, 40);
-        color: white;
-    }
+
+/* Dark mode */
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+a {
+	color: rgb(99, 155, 255);
+}
+
 }
 
