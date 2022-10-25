@@ -13,14 +13,13 @@
 }
 
 .link-bar-item {
-	border-radius: 25px;
+	border-radius: 10px;
 	background: #201e1e;
 	display: inline-block;
 	padding: 7px 20px 7px 20px ;
-}
-
-body {
-	margin: 0;
+	margin-left: 2px;
+	margin-right: 2px;
+	filter: drop-shadow(5px 5px 0px #181818);
 }
 
 .top-bar {
@@ -34,7 +33,18 @@ body {
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
 	image-rendering: crisp-edges;
-	background-size: 150px;
+	background-size: 256px;
+	animation: snowfall 7s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes snowfall {
+  from {background-position: 0px 0px;}
+  to {background-position: 256px 256px;}
+}
+
+body {
+	margin: 0;
 }
 
 h1 {
@@ -88,7 +98,7 @@ body {
 }
 
 a {
-	color: rgb(99, 155, 255);
+	color: #75b9ce;
 }
 
 }
