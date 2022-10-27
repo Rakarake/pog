@@ -77,20 +77,6 @@ a:active {
 	text-decoration: underline;
 } 
 
-
-
-/* Light mode */
-body {
-	background-color: rgb(253, 251, 239);
-	color: black;
-}
-
-a {
-	color: rgb(34, 32, 52);
-}
-
-@media (prefers-color-scheme: dark) {
-
 /* Dark mode */
 body {
     background-color: rgb(40, 40, 40);
@@ -101,5 +87,8 @@ a {
 	color: #75b9ce;
 }
 
+/*@media (prefers-color-scheme: dark) {
 }
+*/
+
 
