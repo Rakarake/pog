@@ -10,16 +10,30 @@
 
 .link-bar {
 	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	margin-top: 0px;
+	background-image: url(ice.png);
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+	background-size: contain;
 }
 
 .link-bar-item {
 	border-radius: 10px;
-	background: #201e1e;
+	background:#312C2B;
 	display: inline-block;
 	padding: 7px 20px 7px 20px ;
 	margin-left: 2px;
 	margin-right: 2px;
-	filter: drop-shadow(5px 5px 0px #181818);
+	filter: drop-shadow(5px 5px 0px #142035);
+}
+
+.link-bar-item a {
+	color:#9BBFFF;
+	font-weight: bold;
+
 }
 
 .link-bar-item a:link {
@@ -39,12 +53,11 @@
 } 
 
 .top-bar {
-	margin-bottom: 10px;
 	background: #020513;
 	padding-bottom: 30px;
 	padding-top: 30px;
 	margin: 0;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	background-image: url(snowflakes.png);
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
