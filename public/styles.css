@@ -22,6 +22,22 @@
 	filter: drop-shadow(5px 5px 0px #181818);
 }
 
+.link-bar-item a:link {
+	text-decoration: none;
+}
+
+.link-bar-item a:visited {
+	text-decoration: none;
+}
+
+.link-bar-item a:hover {
+	text-decoration: underline;
+}
+
+.link-bar-item a:active {
+	text-decoration: underline;
+} 
+
 .top-bar {
 	margin-bottom: 10px;
 	background: #020513;
@@ -54,37 +70,45 @@ h1 {
 	filter: drop-shadow(5px 1px 0px #4444dd);
 }
 
-p {
-	font-family: fantasy;
+h2 {
+	font-size: 200%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h2::before, h2::after {
+  content: " -- ";
+}
+
+.topics {
+	font-family: sans-serif;
 	font-size: 150%;
 	font-weight: bold;
-	filter: drop-shadow(5px 1px 0px #4444dd);
+	color: #FFFCEE;
+	/*filter: drop-shadow(1px 1px 0px #010114);*/
+	margin-left: 20%;
+	margin-right: 20%;
+
 }
 
-a:link {
-	text-decoration: none;
+ul {
+	list-style-type: none;
 }
 
-a:visited {
-	text-decoration: none;
+li:before {
+	content: "❄";
+	color: #8CBFFF;
+	margin-right: 10px;
 }
 
-a:hover {
-	text-decoration: underline;
+a {
+	color: #75b9ce;
 }
-
-a:active {
-	text-decoration: underline;
-} 
 
 /* Dark mode */
 body {
     background-color: rgb(40, 40, 40);
     color: white;
-}
-
-a {
-	color: #75b9ce;
 }
 
 /*@media (prefers-color-scheme: dark) {
