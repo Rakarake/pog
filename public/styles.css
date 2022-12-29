@@ -25,30 +25,30 @@
 	background:#312C2B;
 	display: inline-block;
 	padding: 7px 20px 7px 20px ;
+
 	margin-left: 2px;
 	margin-right: 2px;
+	margin-bottom: 10px;
 	filter: drop-shadow(5px 5px 0px #142035);
-}
+	cursor: pointer;
 
-.link-bar-item a {
 	color:#9BBFFF;
 	font-weight: bold;
-
 }
 
-.link-bar-item a:link {
+a:link {
 	text-decoration: none;
 }
 
-.link-bar-item a:visited {
+a:visited {
 	text-decoration: none;
 }
 
-.link-bar-item a:hover {
+a:hover {
 	text-decoration: underline;
 }
 
-.link-bar-item a:active {
+a:active {
 	text-decoration: underline;
 } 
 
@@ -93,6 +93,7 @@ h2::before, h2::after {
   content: " -- ";
 }
 
+/* General Style of bottom stuff */
 .topics {
 	font-family: sans-serif;
 	font-size: 150%;
@@ -101,7 +102,6 @@ h2::before, h2::after {
 	/*filter: drop-shadow(1px 1px 0px #010114);*/
 	margin-left: 20%;
 	margin-right: 20%;
-
 }
 
 ul {
