@@ -36,22 +36,6 @@
 	font-weight: bold;
 }
 
-a:link {
-	text-decoration: none;
-}
-
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:active {
-	text-decoration: underline;
-} 
-
 .top-bar {
 	background: #020513;
 	padding-bottom: 30px;
@@ -72,27 +56,6 @@ a:active {
   to {background-position: 256px 256px;}
 }
 
-body {
-	margin: 0;
-}
-
-h1 {
-	text-align: center;
-	font-family: lobster;
-	font-size: 300%;
-	filter: drop-shadow(5px 1px 0px #4444dd);
-}
-
-h2 {
-	font-size: 200%;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-h2::before, h2::after {
-  content: " -- ";
-}
-
 /* General Style of bottom stuff */
 .topics {
 	font-family: sans-serif;
@@ -104,21 +67,54 @@ h2::before, h2::after {
 	margin-right: 20%;
 }
 
+
+/* -- General Styling -- */
+
+body {
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-family: lobster;
+	font-size: 300%;
+	filter: drop-shadow(5px 1px 0px #4444dd);
+}
+h2 {
+	font-size: 200%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h2::before, h2::after {
+  content: " -- ";
+}
+
+/* Lists */
 ul {
 	list-style-type: none;
 }
-
 li:before {
 	content: "❄";
 	color: #8CBFFF;
 	margin-right: 10px;
 }
 
+/* Links */
 a {
 	color: #75b9ce;
 }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+} 
 
-/* Dark mode */
 body {
     background-color: rgb(40, 40, 40);
     color: white;
@@ -127,5 +123,4 @@ body {
 /*@media (prefers-color-scheme: dark) {
 }
 */
-
 
