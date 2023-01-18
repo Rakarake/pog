@@ -1,0 +1,22 @@
+.popout-bubble {
+	background-image:    url(walking.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+	display: inline-block;
+	border-radius: 30px;
+	transition: 0.3s;
+	/*opacity: 0.6;*/
+	margin: 0px;
+	padding: 200px ;
+	position: relative;
+	z-index: 1;
+}
+
+.popout-bubble:hover {
+	/*opacity: 1*/
+	padding: 220px;
+	margin: -20px;
+	z-index: 2;
+}
+
