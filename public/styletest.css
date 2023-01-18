@@ -5,7 +5,8 @@
     background-position: center center;              /* optional, center the image */
 	display: inline-block;
 	border-radius: 30px;
-	transition: 0.3s;
+	transition: 0.08s;
+	transition-timing-function: ease-in;
 	/*opacity: 0.6;*/
 	margin: 0px;
 	padding: 200px ;
@@ -15,6 +16,7 @@
 
 .popout-bubble:hover {
 	/*opacity: 1*/
+	transition: 0.3s;
 	padding: 220px;
 	margin: -20px;
 	z-index: 2;
