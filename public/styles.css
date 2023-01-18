@@ -63,16 +63,23 @@
 	font-weight: bold;
 	color: #FFFCEE;
 	/*filter: drop-shadow(1px 1px 0px #010114);*/
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
+.bottom-text {
+	position: absolute;
+	bottom: 10px;
+	background-color: #6B2121;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+	border-color: #CE6161;
+	border-style: solid;
+}
 
 /* -- General Styling -- */
 
-body {
-	margin: 0;
-}
 h1 {
 	text-align: center;
 	font-family: lobster;
@@ -80,9 +87,7 @@ h1 {
 	filter: drop-shadow(5px 1px 0px #4444dd);
 }
 h2 {
-	font-size: 200%;
-	margin-left: 15%;
-	margin-right: 15%;
+	font-size: 150%;
 }
 h2::before, h2::after {
   content: " -- ";
@@ -96,6 +101,11 @@ li:before {
 	content: "❄";
 	color: #8CBFFF;
 	margin-right: 10px;
+}
+
+/* Images */
+img {
+	vertical-align: middle;
 }
 
 /* Links */
@@ -116,6 +126,7 @@ a:active {
 } 
 
 body {
+	margin: 0;
     background-color: rgb(40, 40, 40);
     color: white;
 }
