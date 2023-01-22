@@ -67,17 +67,6 @@
 	margin-right: 15%;
 }
 
-.bottom-text {
-	position: absolute;
-	bottom: 10px;
-	background-color: #6B2121;
-	border-radius: 10px;
-	padding: 5px;
-	margin: 10px;
-	border-color: #CE6161;
-	border-style: solid;
-}
-
 /* -- General Styling -- */
 
 h1 {
