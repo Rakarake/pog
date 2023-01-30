@@ -18,6 +18,7 @@
 	image-rendering: -moz-crisp-edges;
 	image-rendering: crisp-edges;
 	background-size: contain;
+	background-repeat: repeat-x;
 }
 
 .link-bar-item {
@@ -63,8 +64,28 @@
 	font-weight: bold;
 	color: #FFFCEE;
 	/*filter: drop-shadow(1px 1px 0px #010114);*/
-	margin-left: calc(18.2% - 4.2rem);
-	margin-right: 15%;
+}
+
+/* Mobile */
+.resp-margin {
+    margin-left: 2%;
+}
+.resp-size {
+	
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    .resp-margin {
+        margin-left: 10%;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .resp-margin {
+        margin-left: 15%;
+    }
 }
 
 /* -- General Styling -- */
@@ -85,6 +106,7 @@ h2::before, h2::after {
 /* Lists */
 ul {
 	list-style-type: none;
+	padding-left: 5%;
 }
 li:before {
 	content: "❄";
