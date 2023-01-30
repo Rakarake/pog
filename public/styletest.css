@@ -7,17 +7,17 @@
 	border-radius: 30px;
 	transition: 0.08s;
 	transition-timing-function: ease-in;
-	transform: perspective(500px) translate3d(0px, 0px, 0px);
+	transform: perspective(500px) translate3d(0px, 0px, -80px);
 	font-size: 40px;
-	margin: 0px;
-	padding: 100px;
+	margin: -28px;
+	padding: 200px;
 	position: relative;
 	z-index: 1;
 }
 
 .popout-bubble:hover {
 	transition: 0.3s;
-	transform: perspective(500px) translate3d(0px, 0px, 80px);
+	transform: perspective(500px) translate3d(0px, 0px, 0px);
 	z-index: 2;
 }
 
