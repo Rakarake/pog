@@ -25,7 +25,8 @@
 	border-radius: 10px;
 	background:#312C2B;
 	display: inline-block;
-	padding: 7px 20px 7px 20px ;
+	padding: 10px 25px 10px 25px ;
+    font-size: 18px;
 
 	margin-left: 2px;
 	margin-right: 2px;
@@ -72,6 +73,21 @@
   width: 100%;
   background-color: #3C3836;
   padding: 5px;
+}
+
+/* Poppout Elements */
+.popout {
+	display: inline-block;
+	transition: 0.08s;
+	transition-timing-function: ease-in;
+	transform: perspective(500px) translate3d(0px, 0px, -60px);
+	position: relative;
+	z-index: 1;
+}
+.popout:hover {
+	transition: 0.3s;
+	transform: perspective(500px) translate3d(0px, 0px, 0px);
+	z-index: 2;
 }
 
 /* Mobile */
