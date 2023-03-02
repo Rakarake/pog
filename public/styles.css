@@ -78,14 +78,14 @@
 /* Poppout Elements */
 .popout {
 	display: inline-block;
-	transition: 0.08s;
+	transition: 0.03s;
 	transition-timing-function: ease-in;
-	transform: perspective(500px) translate3d(0px, 0px, -60px);
+	transform: perspective(500px) translate3d(0px, 0px, -20px);
 	position: relative;
 	z-index: 1;
 }
 .popout:hover {
-	transition: 0.3s;
+	transition: 0.03s;
 	transform: perspective(500px) translate3d(0px, 0px, 0px);
 	z-index: 2;
 }
