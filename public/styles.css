@@ -80,13 +80,13 @@
 	display: inline-block;
 	transition: 0.03s;
 	transition-timing-function: ease-in;
-	transform: perspective(500px) translate3d(0px, 0px, -20px);
+	transform: perspective(500px) translate3d(0px, 0px, 0px);
 	position: relative;
 	z-index: 1;
 }
 .popout:hover {
 	transition: 0.03s;
-	transform: perspective(500px) translate3d(0px, 0px, 0px);
+	transform: perspective(500px) translate3d(0px, 0px, 20px);
 	z-index: 2;
 }
 
