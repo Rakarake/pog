@@ -1,1 +1,1 @@
-ssh rakarake@rakarake.xyz 'cd /var/www/bodinw.xyz && git pull'
+ssh rakarake@rakarake.xyz 'cd /var/www/rakarake.xyz && git pull'
