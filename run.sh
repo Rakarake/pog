@@ -1,1 +1,0 @@
-firefox public/index.html
