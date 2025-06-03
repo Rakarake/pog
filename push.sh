@@ -1,1 +1,1 @@
-rsync -a public/ rakarake@raka.rakarake.xyz:/var/www/rakarake.xyz/public
+rsync -a public/ rakarake@rakarake.xyz:/var/www/rakarake.xyz/public
